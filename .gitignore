@@ -1,0 +1,20 @@
+# virtual environment
+.venv/
+__pycache__/
+*.pyc
+
+# dataset files never go in git (they live on E:\AquaticVision)
+*.bag
+*.zip
+data/
+
+# big outputs; small CSV tables in results/ are kept
+results/**/*.png
+results/**/*.jpg
+results/**/*.npy
+results/**/*.npz
+
+# editor and Office temp files
+.vscode/
+.idea/
+~$*
